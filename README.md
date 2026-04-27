@@ -11,7 +11,7 @@ root/
     1/  # parallel execution of code & scalability with #threads
         # amdahl's and gustafson's laws
         - dot.c         # scalar product (critical sections)
-        - sum.c         # vectorial sum (false sharing)
+        - sum.c         # vectorial sum (false sharing) (better run with nice)
     2/
     3/
     4/
