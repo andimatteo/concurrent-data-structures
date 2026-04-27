@@ -20,4 +20,7 @@ root/
     7/
 ```
 
+## resources
 
+Most of the code written during lectures has been written using
+`man` reference
