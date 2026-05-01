@@ -12,7 +12,12 @@ root/
         # amdahl's and gustafson's laws
         - dot.c         # scalar product (critical sections)
         - sum.c         # vectorial sum (false sharing) (better run with nice)
-    2/
+    2/  # intro to concurrent data structures
+        # fine grained and coarse grained locking
+        # combining tree for common counter problem
+        # see a bit of `perf`, for monitoring indices (context switches)
+        - list.c        # coarse-grained and fine-grained locking
+                        # on a simple linked list
     3/
     4/
     5/

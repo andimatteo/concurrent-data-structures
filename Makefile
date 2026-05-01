@@ -3,7 +3,7 @@ LIB				:= include/lib.c
 LIB_OBJ			:= include/lib.o
 CC				:= gcc-15
 
-all: build dot sum
+all: build dot sum list
 
 build:
 	mkdir -p build
@@ -13,6 +13,9 @@ dot:
 
 sum:
 	$(CC) $(FLAGS) 01/$@.c -o build/$@
+
+list:
+	$(CC) $(FLAGS) 02/$@.c -o build/$@
 
 clean:
 	rm -rf build/
