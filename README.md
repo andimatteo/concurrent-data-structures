@@ -1,7 +1,7 @@
 # Concurrent Data Structures
 
 Code of Concurrent Data Structures course @ Scuola Superiore
-Sant'Anna, held by professor @tomcucinotta
+Sant'Anna, held by professor [@tomcucinotta](https://github.com/tomcucinotta).
 
 
 ## lectures content
