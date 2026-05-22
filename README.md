@@ -19,6 +19,8 @@ root/
         - list.c        # coarse-grained and fine-grained locking
                         # on a simple linked list
     3/
+        - ring-buffer.c # coarse-grained locking on ring buffer
+        - blocking-ring-buffer.c # blocking ring buffer (coarse-grained lock)
     4/
     5/
     6/
