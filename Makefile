@@ -1,9 +1,8 @@
 FLAGS			:= -Wall -Iinclude -pthread -fopenmp
 LIB				:= include/lib.c
-LIB_OBJ			:= include/lib.o
 CC				:= gcc-15
 
-all: build dot sum list
+all: build dot sum list ring-buffer blocking-ring-buffer lock-free-list
 
 build:
 	mkdir -p build
@@ -16,6 +15,16 @@ sum:
 
 list:
 	$(CC) $(FLAGS) 02/$@.c -o build/$@
+
+ring-buffer:
+	$(CC) $(FLAGS) 03/$@.c -o build/$@
+
+blocking-ring-buffer:
+	$(CC) $(FLAGS) 03/$@.c -o build/$@
+
+lock-free-list:
+	$(CC) $(FLAGS) 05/$@.c -o build/$@
+
 
 clean:
 	rm -rf build/
