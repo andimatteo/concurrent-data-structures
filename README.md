@@ -4,6 +4,25 @@ Code of Concurrent Data Structures course @ Scuola Superiore
 Sant'Anna, held by professor [@tomcucinotta](https://github.com/tomcucinotta).
 
 
+## Course syllabus
+
+This course provides an overview of the most used **concurrent data structures**
+in different application areas, with a specific focus on the **scalability**
+of performance achievable on **multi/many-core platforms**, with reference to
+the `C` programming language. 
+We will review some concepts related to **synchronization and locking mechanisms**,
+from `mutexes` and `condition variables` to `futexes` to `spinlocks`, 
+`atomics` and `memory barriers`, applying these primitives to the realization 
+of **data structures with lock-free operations**. We will see some basic
+concepts on the realization of **optimistic locking mechanisms** and those of
+**transactional memory**, and how to use **software transactional memory**
+mechanisms commonly available in modern compilers.
+
+Although many of the covered topics are generally applicable to a variety of 
+different programming languages and operating systems, 
+during the course we will see examples in the C language 
+and on the Linux operating system.
+
 ## lectures content
 
 ```
