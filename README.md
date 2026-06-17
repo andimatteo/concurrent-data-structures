@@ -10,6 +10,7 @@ This course provides an overview of the most used **concurrent data structures**
 in different application areas, with a specific focus on the **scalability**
 of performance achievable on **multi/many-core platforms**, with reference to
 the `C` programming language. 
+
 We will review some concepts related to **synchronization and locking mechanisms**,
 from `mutexes` and `condition variables` to `futexes` to `spinlocks`, 
 `atomics` and `memory barriers`, applying these primitives to the realization 
