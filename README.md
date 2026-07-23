@@ -6,23 +6,31 @@ Sant'Anna, held by professor [@tomcucinotta](https://github.com/tomcucinotta).
 
 ## Course syllabus
 
-This course provides an overview of the most used **concurrent data structures**
-in different application areas, with a specific focus on the **scalability**
-of performance achievable on **multi/many-core platforms**, with reference to
-the `C` programming language. 
+This course provides an overview of the concurrent data structures most 
+commonly used across different application domains, with a specific focus 
+on the performance scalability achievable on multi-core and many-core 
+platforms, using the C programming language as a reference.
 
-We will review some concepts related to **synchronization and locking mechanisms**,
-from `mutexes` and `condition variables` to `futexes` to `spinlocks`, 
-`atomics` and `memory barriers`, applying these primitives to the realization 
-of **data structures with lock-free operations**. We will see some basic
-concepts on the realization of **optimistic locking mechanisms** and those of
-**transactional memory**, and how to use **software transactional memory**
-mechanisms commonly available in modern compilers.
+The course revisits concepts related to synchronization and locking 
+mechanisms, ranging from mutexes and condition variables to futexes, 
+spinlocks, atomic operations, and memory barriers. These primitives are 
+then applied to the implementation of data structures supporting 
+lock-free operations.
 
-Although many of the covered topics are generally applicable to a variety of 
-different programming languages and operating systems, 
-during the course we will see examples in the C language 
-and on the Linux operating system.
+Basic concepts concerning optimistic locking mechanisms and transactional 
+memory are introduced, together with the use of software transactional 
+memory mechanisms commonly available in modern compilers.
+
+The course also provides an overview of formal methods for verifying the 
+correctness of synchronization protocols, such as the Temporal Logic 
+of Actions (TLA+), as well as synchronization primitives available within 
+an operating-system kernel such as Linux. These include read-write locks,
+mutexes, real-time mutexes, spinlocks, Read-Copy-Update (RCU), 
+and primitives for enabling and disabling preemption and interrupts.
+
+Although many of the topics covered are generally applicable to a variety 
+of programming languages and operating systems, the course examples are 
+presented in the C programming language and on the Linux operating system.
 
 ## lectures content
 
